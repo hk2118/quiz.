@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quiz</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">GR Network</a>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="row register">
+        <div class="col-6 offset-3 mb-3">
+          <h2>Log In Form</h2>
+        </div>
+      </div>
+      <form id="loginForm">
+        <!-- Added id here -->
+        <div class="row">
+          <div class="col-md-6 offset-md-3 mb-3">
+            <label class="form-label" for="loginEmail">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Enter Your Email"
+              id="loginEmail"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 offset-md-3 mb-3">
+            <label class="form-label" for="loginPassword">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Enter Your Password"
+              id="loginPassword"
+              required
+            />
+          </div>
+          <div class="row">
+            <div class="col-md-4 offset-md-4 mb-3">
+              <button type="submit" class="btn btn-success w-100">
+                Log In
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="login.js"></script>
+    <!-- Corrected src attribute -->
+  </body>
+</html>
